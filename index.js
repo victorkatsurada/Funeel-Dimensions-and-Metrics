@@ -1,5 +1,7 @@
 // abre o detalhamento das rules
 document.querySelector("#expand-all").click()
+
+//═══════════ [START] COLLECT CUSTOM RULES ═══════════ //
 var rulesConditionals = [];
 var allElementsArray = Array.from(document.querySelectorAll("div.rule__operator-value-pair > *"));
 // dimensionID
@@ -69,7 +71,9 @@ allElementsArray.forEach((element, index) => {
     );
   }
 });
+//═══════════ [END] COLLECT CUSTOM RULES ═══════════ //
 
+//═══════════ [START] COLLECT STANDARD RULES ═══════════ //
 var dataSource = [];
 Array.from(document.querySelectorAll("#dimension-overview-page > div.included-rules__container > div.included-rules__inner > div > div > div > span.ml-xs")).forEach(ruleElement => {
   var ruleValue;
@@ -96,6 +100,7 @@ Array.from(document.querySelectorAll("#dimension-overview-page > div.included-ru
     ${ruleId}`
   );
 });
+//═══════════ [END] COLLECT STANDARD RULES ═══════════ //
 
 var concatDataSources = rulesConditionals.concat(dataSource);
 copy(concatDataSources);
