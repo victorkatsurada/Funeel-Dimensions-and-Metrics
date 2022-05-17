@@ -1,3 +1,5 @@
+// abre o detalhamento das rules
+document.querySelector("#expand-all").click()
 var rulesConditionals = []
 var allElementsArray = Array.from(document.querySelectorAll("div.rule__operator-value-pair > *"))
 var dataSourceId = document.querySelector("div.name-value-list__values.break-all > *").innerText
