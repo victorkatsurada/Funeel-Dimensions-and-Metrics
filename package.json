@@ -1,5 +1,6 @@
 {
   "name": "funnel-metrics",
+  "private": "true",
   "version": "0.1.0",
   "description": "**Para utilizar o script siga os passos abaixo:**",
   "main": "index.js",
