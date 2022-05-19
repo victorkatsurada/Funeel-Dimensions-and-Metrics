@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/victorkatsurada/Funeel-Dimensions-and-Metrics#readme",
   "release": {
-    "branch": ["main"],
+    "branch": ["main", "next"],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
