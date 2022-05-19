@@ -1,3 +1,4 @@
+// v0.1.0
 // abre o detalhamento das rules
 document.querySelector("#expand-all").click()
 
