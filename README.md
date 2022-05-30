@@ -1,4 +1,4 @@
-# Funeel-Dimensions-and-Metrics-Collect teste
+# Funeel-Dimensions-and-Metrics-Collect 
 
 **Para utilizar o script siga os passos abaixo:**
 
