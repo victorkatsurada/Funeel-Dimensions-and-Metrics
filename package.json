@@ -1,7 +1,7 @@
 {
   "name": "funnel-metrics",
   "private": "true",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "**Para utilizar o script siga os passos abaixo:**",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/victorkatsurada/Funeel-Dimensions-and-Metrics#readme",
   "release": {
-    "branches": "main" ,
+    "branches": "main",
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
