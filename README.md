@@ -1,4 +1,5 @@
 # Funeel-Dimensions-and-Metrics-Collect
+
 **Para utilizar o script siga os passos abaixo:**
 
 1- Abra na dimensão ou métrica de deseje pegar as informações;
